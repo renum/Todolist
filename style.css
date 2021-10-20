@@ -1,0 +1,136 @@
+.main-section{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  
+  .main-container{
+    
+    display: flex;
+  }
+  
+  
+  .container{
+    
+    border: 2px solid;
+    margin-right: 15px;
+    padding: 2px;
+    border-radius: 0.2rem;
+  }
+  
+  
+  .del, .delitem, .delcat{
+    display: inline-block;
+    background: url(https://img.icons8.com/emoji/48/000000/cross-mark-button-emoji.png) 10px 10px no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    padding: 2px;
+    cursor: pointer;
+  }
+  
+  #taskdesc{
+    margin: 2px;
+    padding: 2px;
+    width: 25rem;
+    background-color: cyan;
+    border: none;
+  }
+  
+  #cat{
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid;
+    background-color: cyan;
+    font-weight: bold;
+  }
+  
+  
+  .addtask{
+    display: inline-block;
+    padding: 5px;
+    background-color: cyan;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid;
+    font-family: cursive;
+    cursor: pointer;
+  }
+  
+  
+  body{
+    
+    background: #000000;
+    font-family: cursive;
+  }
+  
+  
+  .message{
+    
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .catcard{
+    
+    display: inline-block;
+    margin: 2rem;
+    min-width: 100px;
+    min-height: 100px;
+    width: auto;
+    height: auto;
+    /* width: 250px;
+     height: 250px;*/
+    position: relative;
+    cursor: move;  
+   
+  }
+  
+  ul{
+    
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  h3{
+    
+    text-align: center;
+  }
+  
+  .header{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+    }
+    
+   
+  .taskboard{
+    
+    
+    height: 1000px;
+    width: 1000px;
+    
+  } 
+  
+  
+  
+  
+  
+  
+  
+  
+  
