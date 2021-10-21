@@ -57,6 +57,7 @@ function renderTaskBoard(){
         let taskArray1=  JSON.parse(localStorage.getItem(boardCat));
         
         var catCard= document.createElement('div');  
+        catCard.contentEditable="true";
         catCard.classList.add("catcard");
         catCard.innerHTML= `<div class="header"><h3> ${boardCat} </h3><button class="delcat" onClick="delcat()" > </button></div><ul></ul>`;
         
